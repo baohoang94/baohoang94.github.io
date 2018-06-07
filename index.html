@@ -1,35 +1,63 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-	<title>Hoang Van Bao - Frontend Web</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script type="text/javascript" src="vendor/bootstrap.js"></script>
- 	<script type="text/javascript" src="1.js"></script>
-	<link rel="stylesheet" href="vendor/bootstrap.css">
-	<link rel="stylesheet" href="vendor/font-awesome.css">
- 	<link rel="stylesheet" href="1.css">
+<html lang="en">
+
+<head>
+    <title>Hoang Van Bao - Frontend Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <script type="text/javascript" src="1.js"></script>
+    <link rel="stylesheet" href="vendor/bootstrap.css">
+    <link rel="stylesheet" href="vendor/font-awesome.css">
+    <link rel="stylesheet" href="1.css">
 </head>
-<body >
-	<div class="menutop">
-		<nav class="navbar navbar-light bg-faded">
-			<div class="container">
-				<a class="navbar-brand" href="#">Bao Hoang</a>
-				<ul class="nav navbar-nav float-xs-right">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Giới thiệu<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Kỹ năng</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Sản phẩm</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Liên hệ</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
+
+<body>
+    <!-- comment facebook -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=2158356944397608&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="menutop">
+        <nav class="navbar navbar-light bg-faded">
+            <div class="container">
+                <a class="navbar-brand" href="#">Bao Hoang</a>
+                <ul class="nav navbar-nav float-xs-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Giới thiệu<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kỹ năng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="comment">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Bình luận</h2>
+                    <div class="commentfacebook">
+                    	<div class="fb-comments" data-href="https://baohoang94.github.io/" data-numposts="5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
