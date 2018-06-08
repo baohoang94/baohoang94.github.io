@@ -3,6 +3,8 @@
 	padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
 header {
 	background-color: #222;
     min-height: 200px;
@@ -15,4 +17,7 @@ header img {
 	height: 125px;
 }
 
-.
+footer {
+	font-family: 'Leckerli One', cursive;
+	color: #fff;
+}
