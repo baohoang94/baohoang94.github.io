@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.ttmota {
+    margin-top: 20px;
+}
+.luachon {
+    z-index: -1;
+}
+
+.img-product {
+}
+
+.tvanh {
+    margin-top: 60px;
+}
+
+.tvanh img {
+}
+
+.container-fluid.bott {
+    background-color: #ddd;
+    padding: 20px 0;
+}
+
+.luachon button.btn.btn-warning {
+    border-radius: 0;
+}
+
+.tinhtrang span {
+    color: #00abf0;
+}
+
+.giaban {
+    color: #e95d50;
+    font-size: 22px;
+}
+
+.giaban strike {
+    color: #999;
+    font-size: 14px;
+}
+
+.tvanh .owl-prev {
+    position: absolute;
+    left: -15px;
+}
+
+.tvanh .owl-next {
+    right: -15px;
+    position: absolute;
+}
+
+.tvanh .owl-nav {
+    top: 40%;
+    width: 100%;
+}
+
+.tvanh .item {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.anhsp {
+    border: 1px solid #ddd;
+    text-align: center;
+    display: block;
+}
+
+.anhsp img {
+    margin: auto;
+}
+body {
+	background-color: #fff;
+}
+button.btn.btn-default.dropdown-toggle {
+    background-color: #eee;
+}
+
+button.btn.btn-default.search {
+    background-color: #666;
+    color: #fff;
+    border-radius: 0;
+}
+
+.head .input-group {
+    margin-top: 20px;
+}
+
+.tex h3, .tex h5 {
+    margin-bottom: 0;
+}
+
+.ico {
+    background-color: #f4a137;
+    color: #fff;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.ico.trai {
+    border-radius: 50%;
+}
+
+.logo-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left.phai {
+    margin-top: 10px;
+}
+
+.container.head {
+}
+
+ul.list-inline {
+    margin: 0;
+}
+
+.container-fluid.copy {
+    padding: 0;
+}
+
+.top1 li {
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.top1 li:hover {
+    background-color: #f4a137;
+    cursor: pointer;
+}
+
+.top1 li:hover a {
+    color: #fff;
+}
+
+.top1 li:first-child {
+	border-left: 1px solid #ddd;
+}
+.owl-next:hover, .owl-prev:hover {
+    color: #fff !important;
+    background-color: #f4a137 !important;
+    border: #f4a137 !important;
+}
+.vote {
+	color: #ebdb2c;
+}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 20%;
+    height: 250px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: #fff;
+    color: black;
+    padding: 5px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #fff;
+    color: #f4a137;
+    border-left: 2px solid #f4a137;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 80%;
+    border-left: none;
+    height: 250px;
+    overflow: auto;
+}
+/* end tab*/
+.zoomContainer {
+    z-index: 9999;
+}
