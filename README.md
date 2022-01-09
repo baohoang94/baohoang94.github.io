@@ -1,2 +1,2 @@
 # CV cá nhân
-[Xem chi tiết](baohoang94.github.io)
+https://baohoang94.github.io
